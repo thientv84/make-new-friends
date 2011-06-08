@@ -1,0 +1,16 @@
+development:
+  app_id: '101304306625694'
+  secret: 'ce7e7530de0339f5235bdb41243ae7d4'
+  callback_host: 'localhost:3000'
+
+# production:
+#   app_id: '185866364769116'
+#   secret: 'd6bd05450e8254f8c0310f67d9fd3a1d'
+#   canvas: 'sutalktest'
+#   callback_host: 'sutalkfbgem.heroku.com'
+  
+production:
+  app_id: '101304306625694'
+  secret: 'ce7e7530de0339f5235bdb41243ae7d4'
+  canvas: 'sutalk_thientv'
+  callback_host: 'mysutalks.heroku.com'

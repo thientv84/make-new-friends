@@ -1,0 +1,19 @@
+staging:
+  api_key: 177891
+  api_secret: 'fe79f53b71d2e7e4b89eafd06d1d45bd8adbb421'
+  api_url: 'https://staging.opentok.com/hl'
+  api_javascript_sdk: 'http://staging.tokbox.com/v0.91/js/TB.min.js'
+
+production:
+  api_key: 177891
+  api_secret: 'fe79f53b71d2e7e4b89eafd06d1d45bd8adbb421'
+  api_url: 'https://api.opentok.com/hl'
+  api_javascript_sdk: 'http://static.opentok.com/v0.91/js/TB.min.js'
+
+
+# PhongNH
+# production:
+  # api_key: 665462
+  # api_secret: 'f73e9498ba39f22383e448a672c70ed47257defd'
+  # api_url: 'https://staging.opentok.com/hl'
+  # api_javascript_sdk: 'http://staging.tokbox.com/v0.91/js/TB.min.js'

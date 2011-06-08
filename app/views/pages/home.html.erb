@@ -1,0 +1,22 @@
+<%# rest_graph.get('me').inspect %>
+
+<table id="home_table">
+	<tr>
+		<td class="left_column">
+			<%= render 'pages/home/make_new_friends' %>
+		</td>
+		<td class="right_column">
+			<%= render 'pages/home/control_tokbox_links' %>
+		</td>
+	</tr>
+	<tr>
+		<td id="left_column">
+			<%= render 'pages/home/friend_wall' %>
+		</td>
+		<td id="right_column">
+			<%= render 'pages/home/video_boxes' %>
+			<%= render 'pages/home/instructions' %>
+		</td>
+	</tr>
+</table>
+

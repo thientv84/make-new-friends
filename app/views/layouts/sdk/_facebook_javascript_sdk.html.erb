@@ -1,0 +1,25 @@
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: <%= @room[:fbConfig]["production"]["app_id"] %>, status: true, cookie: true,
+             xfbml: true});
+
+    FB.getLoginStatus(function(response) {
+       if (response.session) {
+					startFacebook();
+					<%= "onlineFriendsInvite();" if newRoom? %>
+					// FB.Canvas.setSize({ height: 1400 });		
+					
+       }
+    });
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+
+</script>
+
+
